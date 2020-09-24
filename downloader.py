@@ -220,8 +220,8 @@ def main(argv):
     try:
         args = parser.parse_args(argv)
 
-        youtube_id = args.youtubeid
-        output = args.output
+        youtube_id = input ("ENTER THE YOUTUBE VIDEO ID:")
+        output = input ("ENTER THE OUTPUT FILENAME:")
         limit = args.limit
 
         if not youtube_id or not output:
